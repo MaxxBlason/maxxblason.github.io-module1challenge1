@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* This is the site header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This div in the site header floats the header links to the right */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* This inlines the website nav links */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* This changes teh "seo" in Horiseon a different color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+
+.header div ul {
+    list-style-type: none;
+
+}
+
+/* This allows for the nav links to stay inline opposed to a line */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+/* anything with the the header <a> will be white */
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* all writing within a <p> be 16 font */
+p {
+    font-size: 16px;
+}
+
+/* hero section will have 800 pixels, be the full width of the screen with centered image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* The entries below are for the content class and within the div of that content class  */
+.content-category {
+    margin-bottom: 25px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+.content-pic-size {
+    max-height: 200px;
+
+}
+
+.content-h2-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content-float-left {
+    float: left;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+.content-float-right {
+    float: right;
+    margin-right: 25px;
+    max-height: 200px;
+
+}
+
+/* The entries below are for the benefits section class and within the div of that benefits class  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-category {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-img {
+    display: block;
+    margin: 5px auto;
+    max-width: 150px;
+}
+
+/* Footer sizing, font, heading size, and color */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+    color: black;
+}
